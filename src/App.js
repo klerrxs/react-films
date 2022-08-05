@@ -1,11 +1,10 @@
-import Detalhes from "./pags/Detalhes";
-import  Inicial  from "./pags/Inicial";
+import { RouterDom } from "./assets/router/RouterDom";
+
 
 function App() {
   return (
-    <div> 
-     <Inicial/>
-     <Detalhes/>
+    <div>
+      <RouterDom/>
     </div>
   );
 }
